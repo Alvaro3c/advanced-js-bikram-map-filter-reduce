@@ -98,8 +98,8 @@ console.log(result4);
 //6
 let numeros = [39, 2, 4, 25, 62];
 
-const multiplicacion = numeros.reduce((acc, cur) => acc *= cur);
-console.log(multiplicacion);
+const result6 = numeros.reduce((acc, cur) => acc *= cur);
+console.log(result6);
 //7
 const sentenceElements = [
     'Me',
@@ -149,7 +149,7 @@ const books = [
 //   return acc.price;
 //  });
 
-const filteredArray = books.filter(elements => elements.category === 'code').map(element => element.price).reduce((acc, curr) => acc + curr);
+const result9 = books.filter(elements => elements.category === 'code').map(element => element.price).reduce((acc, curr) => acc + curr);
 
-console.log(filteredArray);
+console.log(result9);
 
